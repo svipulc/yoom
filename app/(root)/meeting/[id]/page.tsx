@@ -8,7 +8,6 @@ import { useUser } from "@clerk/nextjs";
 import { StreamCall, StreamTheme } from "@stream-io/video-react-sdk";
 
 import React, { useState } from "react";
-import { Stream } from "stream";
 
 export default function Meeting({
   params: { id },
